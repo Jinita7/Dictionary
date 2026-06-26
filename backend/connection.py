@@ -18,13 +18,10 @@ except Exception as e:
     print(f"Configuration error: {e}")
     raise
 
-# ✅ Simple and works
+# ✅ Simple connection - no extra parameters
 client: MongoClient[dict[str, Any]] = MongoClient(
     mongo_uri,
-    server_api=ServerApi('1'),
-    connectTimeoutMS=30000,
-    socketTimeoutMS=30000,
-    serverSelectionTimeoutMS=30000,
+    server_api=ServerApi('1')
 )
 
 try:
