@@ -3,3 +3,6 @@ pypdf
 pymongo
 pytesseract
 pandas
+fastapi 
+pydantic
+uvicorn 
