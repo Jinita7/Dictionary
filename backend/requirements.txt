@@ -1,9 +1,7 @@
-<<<<<<< HEAD
 fastapi
 pydantic
 uvicorn
 pymongo
-=======
 pdfplumber
 pypdf
 pymongo
@@ -12,4 +10,3 @@ pandas
 fastapi 
 pydantic
 uvicorn 
->>>>>>> 81796c1b9a5cc399bdab83a004fc67cf1bbad7b0
