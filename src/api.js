@@ -1,5 +1,8 @@
 // src/api.js
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL|| 'http://localhost:5000'
+const API_BASE_URL = process.env.VITE_API_URL|| 'http://localhost:5000'
+
+console.log('🔍 VITE_API_URL:', import.meta.env.VITE_API_URL);
+console.log('🔍 API_BASE_URL:', API_BASE_URL);
 
 // Fetch all entries with pagination
 // src/api.js
