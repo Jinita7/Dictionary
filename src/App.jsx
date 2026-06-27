@@ -1,23 +1,23 @@
 import React, { useState, useEffect } from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './App';
+// import ReactDOM from 'react-dom/client';
+// import App from './App';
 import { Search, Keyboard, BookOpen, Trophy, Bookmark, Sun, Moon, Sparkles } from 'lucide-react';
 import { fetchEntries, searchEntries } from './api';
 
-const originalFetch = window.fetch;
-window.fetch = function(...args) {
-  const url = args[0];
-  console.log('🔍 FETCH:', url);
+// const originalFetch = window.fetch;
+// window.fetch = function(...args) {
+//   const url = args[0];
+//   console.log('🔍 FETCH:', url);
   
-  // If it's localhost:8000, show where it's coming from
-  if (typeof url === 'string' && url.includes('localhost:8000')) {
-    console.error('🚨 FOUND localhost:8000!');
-    console.error('URL:', url);
-    console.trace('📞 Stack trace:');
-  }
-  
-  return originalFetch.apply(this, args);
-};
+//   // If it's localhost:8000, show where it's coming from
+//   if (typeof url === 'string' && url.includes('localhost:8000')) {
+//     console.error('🚨 FOUND localhost:8000!');
+//     console.error('URL:', url);
+//     console.trace('📞 Stack trace:');
+//   }
+   
+//   return originalFetch.apply(this, args);
+// };
 
 // Also check XMLHttpRequest
 const originalXHROpen = XMLHttpRequest.prototype.open;
@@ -30,11 +30,11 @@ XMLHttpRequest.prototype.open = function(method, url, ...rest) {
   return originalXHROpen.call(this, method, url, ...rest);
 };
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+/*ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />
   </React.StrictMode>
-);
+);*/
 
 
 // Import components

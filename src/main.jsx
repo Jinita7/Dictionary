@@ -52,7 +52,7 @@ window.fetch = function(...args) {
   if (typeof url === 'string' && url.includes('localhost:8000')) {
     console.warn('⚠️ Redirecting localhost:8000 to Render...');
     // ⚠️ REPLACE THIS URL WITH YOUR ACTUAL RENDER URL ⚠️
-    const newUrl = url.replace('http://localhost:8000', 'https://dictionary-udnx.onrender.com/allentries');
+    const newUrl = url.replace('http://localhost:8000', 'https://dictionary-udnx.onrender.com');
     console.log('🔄 New URL:', newUrl);
     return originalFetch2.call(this, newUrl, args[1]);
   }
