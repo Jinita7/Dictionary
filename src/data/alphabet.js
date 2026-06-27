@@ -216,7 +216,7 @@ export const cheitaps = [
 ];
 
 export const digits = [
-  { character: '꯰', name: 'Ama (0)', value: 0 },
+  { character: '꯰', name: 'Sino (0)', value: 0 },
   { character: '꯱', name: 'Ama (1)', value: 1 },
   { character: '꯲', name: 'Ani (2)', value: 2 },
   { character: '꯳', name: 'Ahum (3)', value: 3 },
@@ -224,6 +224,6 @@ export const digits = [
   { character: '꯵', name: 'Manga (5)', value: 5 },
   { character: '꯶', name: 'Taruk (6)', value: 6 },
   { character: '꯷', name: 'Taret (7)', value: 7 },
-  { character: '꯸', name: 'Nipal (8)', value: 8 },
-  { character: '꯹', name: 'Mapal (9)', value: 9 }
+  { character: '꯸', name: 'Nipan (8)', value: 8 },
+  { character: '꯹', name: 'Mapan (9)', value: 9 }
 ];
