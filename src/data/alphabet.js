@@ -208,15 +208,15 @@ export const cheitaps = [
   { character: 'ꯥ', name: 'Aatap', sound: 'a / aa', position: 'right', description: 'Vowel modifier added to the right of a consonant, producing the /aː/ sound.' },
   { character: 'ꯤ', name: 'Inap', sound: 'i / ee', position: 'top', description: 'Vowel modifier added above a consonant, producing the /i/ sound.' },
   { character: 'ꯨ', name: 'oonap', sound: 'u / oo', position: 'bottom', description: 'Vowel modifier added below a consonant, producing the /u/ sound.' },
-  { character: 'ꯦ', name: 'yenap', sound: 'e', position: 'top', description: 'Vowel modifier added above a consonant, producing the /e/ sound.' },
+  { character: 'ꯦ', name: 'yenap', sound: 'ae', position: 'top', description: 'Vowel modifier added above a consonant, producing the /e/ sound.' },
   { character: 'ꯣ', name: 'Onap', sound: 'o', position: 'right and top', description: 'Vowel modifier added to the top and right, producing the /o/ sound.' },
   { character: 'ꯩ', name: 'Cheinap', sound: 'ei', position: 'top', description: 'Vowel modifier added above a consonant, producing the /ei/ diphthong.' },
-  { character: 'ꯧ', name: 'Ooonap', sound: 'ou', position: 'right', description: 'Vowel modifier added to the right, producing the /ou/ diphthong.' },
-  { character: 'ꯪ', name: 'Nung', sound: 'nasalization (m/n)', position: 'top', description: 'Nasalization dot (anusvara) placed above a letter, representing nasal sound.' }
+  { character: 'ꯧ', name: 'Sounap', sound: 'ou', position: 'right', description: 'Vowel modifier added to the right, producing the /ou/ diphthong.' },
+  { character: 'ꯪ', name: 'Nung', sound: 'ng /nasalization', position: 'top', description: 'Nasalization dot (anungsaar) placed above a letter, representing nasal sound.' }
 ];
 
 export const digits = [
-  { character: '꯰', name: 'Ama (0)', value: 0 },
+  { character: '꯰', name: 'Sino (0)', value: 0 },
   { character: '꯱', name: 'Ama (1)', value: 1 },
   { character: '꯲', name: 'Ani (2)', value: 2 },
   { character: '꯳', name: 'Ahum (3)', value: 3 },
@@ -224,6 +224,6 @@ export const digits = [
   { character: '꯵', name: 'Manga (5)', value: 5 },
   { character: '꯶', name: 'Taruk (6)', value: 6 },
   { character: '꯷', name: 'Taret (7)', value: 7 },
-  { character: '꯸', name: 'Nipal (8)', value: 8 },
-  { character: '꯹', name: 'Mapal (9)', value: 9 }
+  { character: '꯸', name: 'Nipan (8)', value: 8 },
+  { character: '꯹', name: 'Mapan (9)', value: 9 }
 ];
